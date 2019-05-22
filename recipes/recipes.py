@@ -59,8 +59,7 @@ def matrify(array):
     Accepts a flat array and converts to an n x n matrix if the length has a whole square root.
     '''
     n=int(math.sqrt((len(array))))
-    print(n)
-    return [[array.pop() for _ in range(n)] for _ in range(n)]
+    return [[array.pop(0) for _ in range(n)] for _ in range(n)]
 
 
 def split_string(string,k):
@@ -150,6 +149,24 @@ def any_elements_equal(my_list, check_val):
     return any(x==check_val for x in my_list)
 
 
+def sort_on_multiple(my_list, instructions):
+    '''
+    Sorts a list of tuples or list of lists according to multiple instructions.  
+
+    Args:
+        my_list (list of lists of list of tuples)
+        instryctions (List of tuples) : e.g [(0, 'asc'), (1, 'desc'), (2', 'desc')]
+    '''    
+    for inst in instructions:
+        if inst[1]=='desc':
+            reverse=True
+        else:
+            reverse=False    
+
+        my_list.sort(key = itemgetter(inst[0]), reverse=reverse)
+    return my_list    
+
+
 if __name__=='__main__':
     
-    print(get_binary_elements(4))
+    print(get_similarity('abcde','abcd'))
