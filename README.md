@@ -3,10 +3,7 @@
 
 A collection of helpful unit-testable recipes used in every day coding tasks, interviews, and projects.  The focus here is using the Python standard library to build small, purposeful, and impactful functions that can be used everywhere.
 
-## Python Standard Library Functions 
-### [Link to folder](https://github.com/VanAurum/python-recipes/tree/master/recipes/Standard_Python)
-
-
+## [Python Standard Library Functions](https://github.com/VanAurum/python-recipes/tree/master/recipes/Standard_Python)
 
 | Function  | Location | Description |
 | -----| -----| -----|
