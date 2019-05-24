@@ -6,10 +6,10 @@ A collection of helpful unit-testable recipes used in every day coding tasks, in
 
 | Function  | Category | Description |
 | -----| -----| -----|
-| get_combinations()  | Python Standard  | Returns all combinations from iterable of length n  |
-| generate_anagrams()  | Python Standard  | Returns all anagrams of a given string  |
+| `get_combinations()`  | Python Standard  | Returns all combinations from iterable of length n  |
+| `generate_anagrams()`  | Python Standard  | Returns all anagrams of a given string  |
 | get_similarity()  | Python Standard  | Returns a similarity ratio of two strings  |
-| changes_to_same())  | Python Standard  | Returns the number of changes required to make one string an anagrams of another  |
+| changes_to_same()  | Python Standard  | Returns the number of changes required to make one string an anagrams of another  |
 | flatten()  | Python Standard  | Flattens a matrix into a list  |
 | matrify()  | Python Standard  | Turns a list into an N x N matrix |
 | split_string()  | Python Standard  | Splits a given string into k equal parts given that k is a factor of len(string)  |
