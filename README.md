@@ -30,9 +30,3 @@ A collection of helpful unit-testable recipes used in every day coding tasks, in
 | `write_txt_file_contents()`  | Write content to a text file |
 
 
-## [Dataframe Methods](https://github.com/VanAurum/python-recipes/tree/master/recipes/Dataframes)
-
-| Function  | Location | Description |
-| -----| -----| -----|
-| `drop_columns()`  | `python_standard.py` | Returns all combinations from iterable of length n  |
-
