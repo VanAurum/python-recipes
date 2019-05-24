@@ -11,6 +11,7 @@ A collection of helpful unit-testable recipes used in every day coding tasks, in
 | `generate_anagrams()`  | `python_standard.py` | Returns all anagrams of a given string  |
 | `get_similarity()`  | `python_standard.py` | Returns a similarity ratio of two strings  |
 | `changes_to_same()`  | `python_standard.py` | Returns the number of changes required to make one string an anagrams of another  |
+| `close_matches()`  | `python_standard.py` | Returns strings from a list that are most similar to a provided string  |
 | `flatten()`  | `python_standard.py`  | Flattens a matrix into a list  |
 | `matrify()`  | `python_standard.py`  | Turns a list into an N x N matrix |
 | `split_string()`  | `python_standard.py` | Splits a given string into k equal parts given that k is a factor of len(string)  |
