@@ -6,7 +6,6 @@ A collection of helpful unit-testable recipes used in every day coding tasks, in
 
 | Function  | Category | Description |
 | -----| -----| -----|
-
 | get_combinations()  | Python Standard  | Returns all combinations from iterable of length n  |
 | generate_anagrams()  | Python Standard  | Returns all anagrams of a given string  |
 | get_similarity()  | Python Standard  | Returns a similarity ratio of two strings  |
